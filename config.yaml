@@ -25,13 +25,13 @@ markup:
 Menus:
   main:
     - identifier: blog
-      name: Blog
-      title: Blog posts
+      name: Investigación
+      title: Investigación
       url: /blogs
       weight: 1
     - identifier: gallery
-      name: Gallery
-      title: Blog posts
+      name: Galeria
+      title: Galeria
       url: /gallery
       weight: 2
     #Dropdown menu
@@ -100,9 +100,9 @@ params:
 
   # If you want to customize the menu, you can change it here
   navbar:
-    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    brandLogo: "https://cdn-icons-png.flaticon.com/128/9072/9072277.png" # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "Ceinps" # Brand name for the brand | default is the title variable
     disableSearch: false
     menus:
       disableAbout: false
@@ -116,12 +116,12 @@ params:
   hero:
     enable: true
     intro: "Hola, nosotros somos."
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    title: "CEINPS."
+    subtitle: "Centro de Estudios en Neurociencias"
+    content: "Somos un grupo conformado por estudiantes de psicología de la UNSA a los cuales les apasiona las neurociencias y claro ramas de nuestra propia carrera."
+    image: https://scontent.faqp3-1.fna.fbcdn.net/v/t39.30808-6/294521261_467567708707571_5985697413857023456_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeHVqxLsMN1H38S8dupH8q4QFQA8DHHgQRgVADwMceBBGHCx5RQhD7NOEcxIUZGVUQbIjD_FNWsSbEdHdqQ6J5sS&_nc_ohc=NGG3a_-p9NgAX8FWV8i&_nc_ht=scontent.faqp3-1.fna&oh=00_AfC-CHNYYzqD_fN3CUKaO5z3n9vlSMs--MkqvDm11k7ZZw&oe=63C2FCFC
     button:
-      enable: true
+      enable: false
       name: "Resume"
       url: "#"
       download: true
@@ -132,13 +132,13 @@ params:
           url: https://example.com
         - icon: fab fa-twitter
           url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+      #customIcons:
+        #- icon: /fav.png
+          #url: "https://example.com"
 
   # About
   about:
-    enable: true
+    enable: false
     title: "About Me"
     image: "/images/me.png"
     content: |-
@@ -158,7 +158,7 @@ params:
 
   # Experience
   experience:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - job: "Senior Software Developer"
@@ -223,7 +223,7 @@ params:
 
   # Education
   education:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: false
     items:
@@ -266,7 +266,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false 
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -285,7 +285,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile
@@ -336,22 +336,22 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    title: "Contacto"
+    content: Puedes contactarnos por nuestras redes sociales, pero tambien por correo
     email: gurusabarisha@gmail.com
-    btnName: Mail me
+    btnName: E-mail
 
   footer:
     recentPosts:
       path: "blogs"
       count: 3
-      title: Recent Posts
+      title: Investigación 
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
+      #github: https://github.com
+      #linkedin: https://linkedin.com
+      #twitter: https://twitter.com
       instagram: https://instagram.com
       facebook: https://facebook.com
 

@@ -1,6 +1,6 @@
 ---
 date: "2022-06-25T18:35:46+05:30"
-description: 'My gallery :earth_asia:'
+description: ':bird:'
 draft: false
 images:
 - src: https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg
@@ -10,5 +10,5 @@ images:
 - src: https://thumbs.dreamstime.com/b/young-woman-playing-dog-pet-beach-sunrise-sunset-girl-dog-having-fun-seasid-seaside-cute-neglected-stay-66480218.jpg
 - src: https://thumbs.dreamstime.com/b/funny-picture-taken-sunrise-frozen-lake-perspective-rider-retro-bicycle-sunrise-personal-211066044.jpg
 layout: gallery
-title: Image Gallery
+title: Nuestra Galeria
 ---
